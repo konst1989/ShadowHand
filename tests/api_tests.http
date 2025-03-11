@@ -1,0 +1,8 @@
+### Тест запуска бота
+POST http://localhost:8000/api/bot/execute
+Content-Type: application/json
+
+{
+  "module": "python",
+  "script": "print('Hello, world!')"
+}
